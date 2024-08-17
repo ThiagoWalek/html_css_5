@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+div {
+    display: flex;
+    background-color: lightsalmon;
+    margin: 100px auto;
+    width: 60vw;
+    height: 100px;
+    transition-duration: 0.4s;
+}
+
+
+div.conteiner1 {
+    flex-direction: row;
+}
+
+div#conteiner1_1 {
+    flex-wrap: wrap;
+}
+
+div#conteiner1_2 {
+    flex-wrap: wrap-reverse;
+}
+
+
+div.conteiner2 {
+    flex-direction: row-reverse;
+}
+
+div#conteiner2_1 {
+    flex-wrap: wrap;
+}
+
+div#conteiner2_2 {
+    flex-wrap: wrap-reverse;
+}
+
+
+div#conteiner3 {
+    flex-direction: column;
+}
+
+div#conteiner3_1 {
+    flex-wrap: wrap;
+}
+
+div#conteiner3_2 {
+    flex-wrap: wrap-reverse;
+}
+
+
+div.conteiner4 {
+    flex-direction: column-reverse;
+}
+
+div#conteiner4_1 {
+    flex-wrap: wrap;
+}
+
+div#conteiner4_1 {
+    flex-wrap: wrap-reverse;
+}
+
+button.itens {
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+}
