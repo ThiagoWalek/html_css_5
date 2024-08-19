@@ -77,4 +77,10 @@ button.itens {
     background-color: white;
     text-align: center;
     font-size: 24px;
+    flex: auto;
 }
+
+/*
+flex-direction: row;
+flex-wrap: nowrap;
+seu shorthand = flex-flow: row nowrap;*/

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+div {
+    display: flex;
+    background-color: lightsalmon;
+    margin: 100px auto;
+    height: 100px;
+    transition-duration: 0.4s;
+}
+
+
+div.conteiner1 {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+div.conteiner2 {
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+div.conteiner3 {
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+div.conteiner4 {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+div.conteiner5 {
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+div.conteiner6 {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+div.conteiner7 {
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+div.conteiner8 {
+    flex-flow: row nowrap;
+    align-items: flex-end;
+}
+
+div.conteiner9 {
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+
+button.itens {
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+/*
+align-items: strech; padrâo ocupa a heigth
+total do conteiner*/
