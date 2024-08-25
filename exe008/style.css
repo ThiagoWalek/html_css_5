@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+div {
+    display: flex;
+    background-color: lightsalmon;
+    margin: 100px auto;
+    height: 400px;
+    align-items: flex-start;
+    transition-duration: 0.4s;
+}
+
+
+div.conteiner1 {
+    flex-flow: row wrap;
+}
+
+button.items {
+    background-color: white;
+    text-align: center;
+    font-size: 26px;
+    transition-duration: 0.8s;
+}
+
+button:active {
+    display: none;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#items1 {
+    align-self: flex-start;
+}
+#items2 {
+    align-self: center;
+}
+#items3 {
+    align-self: flex-end;
+}
+#items4 {
+    align-self: center;
+}
+#items5 {
+    align-self: auto;
+}
+#items6 {
+    align-self: stretch;
+}
+#items7 {
+    align-self: auto;
+}
+#items8 {
+    align-self: flex-end;
+}
+#items9 {
+    align-self: auto;
+}
+#items10 {
+    align-self: flex-end;
+}
+/*
+Container:
+display: flex;
+justify-content: posição do eixo X;
+align-content: posição do eixo Y tranversal;
+flex-flow: short hand para sentido do X ou Y row row-reverse + wrap nowrap wrap-reverse quebras de conteúdo;
+Items:
+flex: auto;
+*/

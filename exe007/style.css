@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+div {
+    display: flex;
+    background-color: lightsalmon;
+    margin: 100px auto;
+    height: 400px;
+    align-items: stretch;
+    align-content: space-evenly;
+    transition-duration: 0.4s;
+}
+
+
+div.conteiner1 {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+button.items {
+    background-color: white;
+    text-align: center;
+    font-size: 36px;
+    transition-duration: 0.8s;
+}
+
+button:active {
+    display: none;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#items1 {
+    order: 10;
+}
+#items2 {
+    order: 2;
+}
+#items4 {
+    order: -1;
+}
+#items5 {
+    order: 15;
+}
+#items6 {
+    order: 2;
+}
+#items7 {
+    order: -8;
+}
+#items8 {
+    order: -2;
+}
+#items9 {
+    order: 20;
+}
+#items10 {
+    order: -1;
+}
+
+/*
+Container:
+display: flex;
+justify-content: posição do eixo X;
+align-content: posição do eixo Y tranversal;
+flex-flow: short hand para sentido do X ou Y row row-reverse + wrap nowrap wrap-reverse quebras de conteúdo;
+Items:
+flex: auto;
+*/
